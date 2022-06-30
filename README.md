@@ -13,8 +13,8 @@
 
       await client.connect();
       const db = client.db('northwind');
-      const users = await db.collection('employees').find().toArray();
-      console.log(users);
+      const employees = await db.collection('employees').find().toArray();
+      console.log(employees);
 
 # creating route for getting data
 
