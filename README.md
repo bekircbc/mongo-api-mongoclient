@@ -1,6 +1,17 @@
 # Loading databases to Mongodb
 
-      mongoimport --db northwind --collection employees --type json --file employees.json --jsonArray
+- create dataImport folder, whereever you want to work..
+
+- in this folder add some ..json datei. [{...}]
+
+            mongoimport --db northwind --collection employees --type json --file employees.json --jsonArray
+
+- if you want to add, more database or collection
+
+            change northwind for database
+            change employees for collection and employees.json
+
+             mongoimport --db { northwind } --collection [ employees ] --type json --file [ employees.json ] --jsonArray
 
 # connecting Mongodb to get data
 
