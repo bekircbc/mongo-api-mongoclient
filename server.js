@@ -13,9 +13,6 @@ const getData = async (done) => {
   done(db);
 };
 
-// const employees = await db.collection("employees").find().toArray();
-// console.log(employees);
-
 app.get("/", (req, res) => {
   res.send("<h1>MongoDB Test</h1>");
 });
