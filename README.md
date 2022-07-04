@@ -4,6 +4,10 @@
 
 - ORM :object relational mapper, ODM:object document mapper...
 
+- ORM : Sequelize (NoSQL, MySQL, Postgresql, ...), Hibernate (Java), NHiberate (.NET), Entity Framework (.NET), Dapper (.NET) = micro-ORM, active record = ORM pattern (Ruby on Rails, ...)
+
+- ODM : Mongoose (JavaScript/Express), Doctrine (PHP), Mandango (PHP), Morphia (Java), Mongomapper (Ruby)
+
 - create dataImport folder, whereever you want to work..
 
 - in this folder add some ..json datei. [{...}]
