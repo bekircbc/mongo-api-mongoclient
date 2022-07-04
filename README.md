@@ -1,5 +1,9 @@
 # Loading databases to Mongodb
 
+- ODM for MongoDb is Mongoose.. npm i mongoose..
+
+- ORM :object relational mapper, ODM:object document mapper...
+
 - create dataImport folder, whereever you want to work..
 
 - in this folder add some ..json datei. [{...}]
@@ -208,3 +212,19 @@
             db.employees.deleteMany({"address.city": "London"})
 
             db.employees.deleteMany({"address.city": {$ne: "London"}})
+
+# Summary
+
+- General : find
+
+- Create : insertOne, insertMany
+
+- Read : limit, sort, skip, find with/out projection, countDocuments,findOne,
+
+            filter options
+
+            $eq,$ne,$gt,$lt,$lte,$gte,$in,$nin,$exists,$and,$or,$expr
+
+- Update : updateOne ($set,$inc,$push,&pull), updateMany($rename,$unset), replaceOne
+
+- Delete : deleteOne, deleteMany
